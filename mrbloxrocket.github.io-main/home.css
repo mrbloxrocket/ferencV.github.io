@@ -34,16 +34,17 @@ body {
 }
 
 .logo-header {
+  font-size:100px;
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #8B4513;
-  text-shadow: 1px 1px 10px #8B4513, 1px 1px 10px #8B4513
+  text-shadow: 1px 1px 10px #d5986c, 1px 1px 10px #8B4513
 }
 p {
   font-size: 26px;
-  color:#8B4513;
+  color:#ead1bf;
 }
 .logo {
   position: relative;
@@ -96,7 +97,7 @@ header h4 {
   left: 10%;
   bottom: 1rem;
   font-size: 1.6rem;
-  color: #8B4513
+  color: #cfae97
 }
 
 .container {
@@ -142,19 +143,27 @@ header h4 {
 }
 
 .overlay1 h1 {
-  font-size: 4.2rem; /* Increase the size of the text */
+  font-size: 100px; /* Increase the size of the text */
   font-weight: bold; /* Make the text bold */
-  color: #8B4513; /* You can adjust the color if needed */
+  color: #ccad97; /* You can adjust the color if needed */
   text-align: center; /* Center the text horizontally */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: add some shadow for better visibility */
+  text-shadow:
+    -3px -3px 0 #945a30, /* Top-left */
+     3px -3px 0 #945a30, /* Top-right */
+    -3px  3px 0 #945a30, /* Bottom-left */
+     3px  3px 0 #945a30; /* Bottom-right */ /* Optional: add some shadow for better visibility */
 }
 
 .overlay1 h2 {
   font-size: 2.7rem; /* Increase the size of the text */
   font-weight: bold; /* Make the text bold */
-  color: #8B4513; /* You can adjust the color if needed */
+  color: #c69c7e; /* You can adjust the color if needed */
   text-align: center; /* Center the text horizontally */
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Optional: add shadow */
+  text-shadow:
+    -1.5px -1.5px 0 #6c3c1a, /* Top-left */
+    1.5px -1.5px 0 #6c3c1a, /* Top-right */
+    -1.5px  1.5px 0 #6c3c1a, /* Bottom-left */
+    1.5px  1.5px 0 #6c3c1a; /* Optional: add shadow */
 }
 
 .main_content {
@@ -162,7 +171,7 @@ header h4 {
   margin-top: 25px;
     margin-left: 15vw;
     margin-right: 15vw;
-    background-color:#422816;
+    background-color:#3b2210;
     font-weight: normal;
 
 }
@@ -204,18 +213,24 @@ list-style-position: outside;
 }
 
 h1 {
-  color: #8B0000;
-  font-size: 2.5rem;
-  font-family:kavoon
+  color: #c76c6c;
+  font-size: 3rem;
+  font-family: Gill Sans MT;
+  text-shadow: 
+   1.5px 1.5px 0 #7a2c2c,   /* Right */
+   -1.5px 1.5px 0 #7a2c2c,   /* Left */
+   1.5px -1.5px 0 #7a2c2c,  /* Top */
+   -1.5px -1.5px 0 #7a2c2c,  /* Bottom */
 }
 
+
 h2 {
- color: #A52A2A;
+ color: #D2691E;
  font-size: 1.9rem;
- border-bottom-width: 3px;
+ border-bottom-width: 4px;
  border-bottom-style: solid;
  border-bottom-color: #D2691E;
- font-family:kavoon
+ font-family: Roboto
 }
 
 h3 {
@@ -438,10 +453,10 @@ li a::after {
 	clear: both;
 	margin: 0px;
   width:100vw;
-   font-size: .9em;
+   font-size: 1.2em;
    text-align: center;
-   color: #0e0797;
-   background-color: #1a9a3e;
+   color: #786d5b;
+   background-color: #261d18;
    padding: 10px;
 }
 /* Medium devices (landscape tablets, 768px and up) */
