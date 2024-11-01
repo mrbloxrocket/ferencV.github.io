@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background-color: #137c3d;
+  background-color: #FFDAB9;
   margin: 0;
   padding: 0;
   height: auto;
@@ -28,7 +28,7 @@ body {
   top: 0;
   width: 100%;
   height: 100vh;
-  background-color: #095574;
+  background-color: #D2691E;
   transition: 1s;
   font-family: pecita
 }
@@ -38,12 +38,12 @@ body {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ffffff;
-  text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc
+  color: #8B4513;
+  text-shadow: 1px 1px 10px #8B4513, 1px 1px 10px #8B4513
 }
 p {
   font-size: 26px;
-  color:white;
+  color:#8B4513;
 }
 .logo {
   position: relative;
@@ -70,7 +70,7 @@ p {
      font-weight: bold;
      padding-top: 10px;
      padding-bottom: 10px;
-     background-color: #14ab3f;
+     background-color: #FFF8DC;
      overflow: hidden;
     position: fixed; 
     top: 0; 
@@ -81,7 +81,7 @@ p {
   .horizon a {
     margin-right: 15px; 
     text-decoration: none; 
-    color: #ffffff;
+    color: #FFF8DC;
   }
 header {
   position: relative;
@@ -96,7 +96,7 @@ header h4 {
   left: 10%;
   bottom: 1rem;
   font-size: 1.6rem;
-  color: #fff
+  color: #8B4513
 }
 
 .container {
@@ -136,7 +136,7 @@ header h4 {
   justify-content: center;
   align-items: center;
   z-index:0; 
-  color: white;
+  color: #8B4513;
   text-align: center;
   overflow: auto
 }
@@ -144,7 +144,7 @@ header h4 {
 .overlay1 h1 {
   font-size: 4.2rem; /* Increase the size of the text */
   font-weight: bold; /* Make the text bold */
-  color: white; /* You can adjust the color if needed */
+  color: #8B4513; /* You can adjust the color if needed */
   text-align: center; /* Center the text horizontally */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: add some shadow for better visibility */
 }
@@ -152,7 +152,7 @@ header h4 {
 .overlay1 h2 {
   font-size: 2.7rem; /* Increase the size of the text */
   font-weight: bold; /* Make the text bold */
-  color: white; /* You can adjust the color if needed */
+  color: #8B4513; /* You can adjust the color if needed */
   text-align: center; /* Center the text horizontally */
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Optional: add shadow */
 }
@@ -162,7 +162,7 @@ header h4 {
   margin-top: 25px;
     margin-left: 15vw;
     margin-right: 15vw;
-    background-color: #137c3d;
+    background-color: #FFE4B5;
     font-weight: normal;
 
 }
@@ -172,7 +172,7 @@ list-style-position: outside;
  margin-left: 0; /* Ensure no extra margin */
  padding-left: 20px; /* Adjust this value based on how close to the edge you want */
  font-size: 1.5rem;
- color: #6cd2da;
+ color: #D2691E;
  text-align: left ;
 }
 .main_content ul {
@@ -198,28 +198,28 @@ list-style-position: outside;
 .imgHead {
   float:right;
   margin: 0px;
-  border: 5px solid #73AD21;
+  border: 5px solid #D2691E;
   padding: 20px;
   border-radius: 5px;
 }
 
 h1 {
-  color: #03045e;
+  color: #8B0000;
   font-size: 2.5rem;
   font-family:kavoon
 }
 
 h2 {
- color: #3739bf;
+ color: #A52A2A;
  font-size: 1.9rem;
  border-bottom-width: 3px;
  border-bottom-style: solid;
- border-bottom-color: #889A9C;
+ border-bottom-color: #D2691E;
  font-family:kavoon
 }
 
 h3 {
-  color: #0f0c96;
+  color: #8B4513;
   font-size: 1.9em;
   font-weight: normal;
   font-family: 'Times New Roman', Times, serif
@@ -234,17 +234,17 @@ ul {
 
 
 li .overlay {
-  color: #060b52 !important; 
+  color: #D2691E !important; 
   display: inline-block;
   height: fit-content
 }
 .navBar{
-  background-color: #067272;
+  background-color: #8B4513;
   display: flex; 
   justify-content: center;
 }
 .navBar a {
-  color: #060b52 !important;  /* Force this color with !important */
+  color: #5C4033 !important;  /* Force this color with !important */
   font-family: 'Kavoon', sans-serif !important;  /* Ensure Kavoon font is applied */
   text-decoration: none;
   font-size: 30px;
@@ -255,7 +255,7 @@ li .overlay {
 
 /* Hover effect for all navBar links */
 .navBar a:hover {
-  color: #1f98a8 !important;  /* Hover color */
+  color: #FFDEAD !important;  /* Hover color */
 }
 .navBar li a {
   display: block;
