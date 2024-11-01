@@ -66,11 +66,12 @@ p {
 } 
 .horizon {
   text-align:center;
-  font-size: 24px;
+  font-family: Gill Sans MT;
+  font-size: 42px;
      font-variant: normal;
      font-weight: bold;
-     padding-top: 10px;
-     padding-bottom: 10px;
+     padding-top: 20px;
+     padding-bottom: 20px;
      background-color: #422816;
      overflow: hidden;
     position: fixed; 
@@ -143,19 +144,21 @@ header h4 {
 }
 
 .overlay1 h1 {
-  font-size: 100px; /* Increase the size of the text */
-  font-weight: bold; /* Make the text bold */
-  color: #ccad97; /* You can adjust the color if needed */
-  text-align: center; /* Center the text horizontally */
-  text-shadow:
-    -3px -3px 0 #945a30, /* Top-left */
-     3px -3px 0 #945a30, /* Top-right */
-    -3px  3px 0 #945a30, /* Bottom-left */
-     3px  3px 0 #945a30; /* Bottom-right */ /* Optional: add some shadow for better visibility */
+  font-size: 150px;
+  font-weight: bold;
+  color: #ccad97;
+  text-align: center;
+  text-shadow: 
+    -3px -3px 0 #945a30, 
+     3px -3px 0 #945a30, 
+    -3px  3px 0 #945a30, 
+     3px  3px 0 #945a30;
+  margin-top: 100px; /* Move the text down by 20 pixels */
 }
 
+
 .overlay1 h2 {
-  font-size: 2.7rem; /* Increase the size of the text */
+  font-size: 50px; /* Increase the size of the text */
   font-weight: bold; /* Make the text bold */
   color: #c69c7e; /* You can adjust the color if needed */
   text-align: center; /* Center the text horizontally */
@@ -167,10 +170,10 @@ header h4 {
 }
 
 .main_content {
-  width: 70vw;
+  width: 90vw;
   margin-top: 25px;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     background-color:#3b2210;
     font-weight: normal;
 
@@ -204,11 +207,12 @@ list-style-position: outside;
   font-size: 1.5rem;
   font-family: 'Times New Roman', Times, serif
 }
+
 .imgHead {
   float:right;
   margin: 0px;
   border: 5px solid #D2691E;
-  padding: 20px;
+  padding: 0px;
   border-radius: 5px;
 }
 
